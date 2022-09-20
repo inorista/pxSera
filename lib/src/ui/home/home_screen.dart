@@ -21,7 +21,6 @@ class HomeScreen extends StatelessWidget {
           height: double.infinity,
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: NestedScrollView(
-            floatHeaderSlivers: true,
             clipBehavior: Clip.none,
             physics: const NeverScrollableScrollPhysics(),
             headerSliverBuilder: (context, innerBoxIsScrolled) => [

@@ -28,9 +28,9 @@ class HeaderPersistent extends SliverPersistentHeaderDelegate {
 
     var opacity = ((minimumExtent / shrinkOffset / 2)) < 0.135 ? 0 : ((minimumExtent / shrinkOffset / 2)).clamp(0, 1);
 
-    var opacityColor = (shrinkOffset / maximumExtent).toDouble() < 0.7
+    var opacityColor = (shrinkOffset / maximumExtent).toDouble() < 0.8
         ? 0
-        : (shrinkOffset / maximumExtent).clamp(0.7, 1) > 0.8
+        : (shrinkOffset / maximumExtent).clamp(0.7, 1) > 0.85
             ? 1
             : (shrinkOffset / maximumExtent).clamp(0.7, 1);
 

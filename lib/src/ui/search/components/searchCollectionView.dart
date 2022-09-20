@@ -47,7 +47,7 @@ class _searchCollectionViewState extends State<searchCollectionView> with Automa
               physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
               children: [
                 Text(
-                  "Có khoảng ${searchState.photosResult > 100 ? currencyFormatter.format(searchState.photosResult) : searchState.photosResult} kết quả khớp với từ khóa.",
+                  "Có khoảng ${searchState.collectionsResult > 100 ? currencyFormatter.format(searchState.collectionsResult) : searchState.collectionsResult} kết quả khớp với từ khóa.",
                   style: const TextStyle(
                     fontSize: 13,
                     fontWeight: FontWeight.w600,

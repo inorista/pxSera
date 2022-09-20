@@ -53,10 +53,9 @@ class DetailCollectionScreen extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               colors: [
-                collection.coverPhoto?.color.toColor("F2"),
-                collection.coverPhoto?.color.toColor("E6"),
-                collection.coverPhoto?.color.toColor("8c"),
-                collection.coverPhoto?.color.toColor("4d"),
+                collection.coverPhoto?.color.toColor("FF"),
+                collection.coverPhoto?.color.toColor("CC"),
+                collection.coverPhoto?.color.toColor("4D"),
                 collection.coverPhoto?.color.toColor("33"),
                 Colors.transparent,
                 Colors.transparent,
